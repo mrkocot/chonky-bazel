@@ -1,3 +1,5 @@
+load("@rules_java//java:defs.bzl", "java_library")
+
 java_library(name = "fmbvdjuw")
 java_library(name = "pgtaggpz")
 java_library(name = "gtrnaapl")

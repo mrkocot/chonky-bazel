@@ -1,3 +1,5 @@
+load("@rules_java//java:defs.bzl", "java_library")
+
 java_library(name = "vtbcuave")
 java_library(name = "oxxxvpnq")
 java_library(name = "qpvmvctg")

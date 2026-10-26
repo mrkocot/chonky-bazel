@@ -1,3 +1,5 @@
+load("@rules_java//java:defs.bzl", "java_library")
+
 java_library(name = "xmyyqdfg")
 java_library(name = "vsxhaosx")
 java_library(name = "bqnckwpi")

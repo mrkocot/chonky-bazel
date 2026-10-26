@@ -1,3 +1,5 @@
+load("@rules_java//java:defs.bzl", "java_library")
+
 java_library(name = "pymukxxl")
 java_library(name = "qlvynlip")
 java_library(name = "ipwapmhl")

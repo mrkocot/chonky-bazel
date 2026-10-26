@@ -1,3 +1,5 @@
+load("@rules_java//java:defs.bzl", "java_library")
+
 java_library(name = "wxsimckj")
 java_library(name = "pymtsulk")
 java_library(name = "jayaztql")

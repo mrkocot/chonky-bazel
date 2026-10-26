@@ -47,6 +47,7 @@ def make_target_sources(prefix):
 
 def make_target(prefix):
   with open(f'{prefix}BUILD', 'w') as f:
+    f.write('load("@rules_java//java:defs.bzl", "java_library")\n\n')
     for i in range(TARGETS_PER_FOLDER):
       target_name = randname()
       sources_list = make_target_sources(prefix)
@@ -69,8 +70,8 @@ PROJECT = project_name()
 if not os.path.exists(f'./{PROJECT}'):
   os.mkdir(PROJECT)
   create(DEPTH, f'{PROJECT}/')
-  with open(f'{PROJECT}/WORKSPACE', 'w') as fp:
-    pass
+  with open(f'{PROJECT}/MODULE.bazel', 'w') as fp:
+    fp.write('bazel_dep(name = "rules_java", version = "9.7.0")\n')
   if BAZELVERSION is not None:
     with open(f'{PROJECT}/.bazelversion', 'w') as bazelversion:
       bazelversion.write(BAZELVERSION)

@@ -1,3 +1,5 @@
+load("@rules_java//java:defs.bzl", "java_library")
+
 java_library(name = "hqdbvpmp")
 java_library(name = "uagoweir")
 java_library(name = "ahxpymhc")

@@ -1,3 +1,5 @@
+load("@rules_java//java:defs.bzl", "java_library")
+
 java_library(name = "sysmpkgx")
 java_library(name = "ivmyykfy")
 java_library(name = "crnetyxt")

@@ -1,3 +1,5 @@
+load("@rules_java//java:defs.bzl", "java_library")
+
 java_library(name = "okrixtek")
 java_library(name = "hmzcfpfc")
 java_library(name = "ivcxctls")

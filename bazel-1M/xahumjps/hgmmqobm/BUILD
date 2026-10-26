@@ -1,3 +1,5 @@
+load("@rules_java//java:defs.bzl", "java_library")
+
 java_library(name = "xeogybrv")
 java_library(name = "xleksatz")
 java_library(name = "odtcjeif")

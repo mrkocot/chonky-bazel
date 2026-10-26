@@ -1,3 +1,5 @@
+load("@rules_java//java:defs.bzl", "java_library")
+
 java_library(name = "webmovcm")
 java_library(name = "tewpyyvk")
 java_library(name = "avkfzzsu")

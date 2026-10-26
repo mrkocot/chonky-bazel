@@ -1,3 +1,5 @@
+load("@rules_java//java:defs.bzl", "java_library")
+
 java_library(name = "vumgvxjs")
 java_library(name = "rhsetgfr")
 java_library(name = "fhzpbymp")
